@@ -2,6 +2,7 @@ package xyz.mayahive.customDaytime;
 
 import xyz.mayahive.customDaytime.Listeners.BedEnterListener;
 import xyz.mayahive.customDaytime.Listeners.BedLeaveListener;
+import xyz.mayahive.customDaytime.Listeners.ConnectionListener;
 import xyz.mayahive.customDaytime.Listeners.TimeSkipListener;
 import xyz.mayahive.customDaytime.Tasks.TimeTickTask;
 import xyz.mayahive.customDaytime.Updates.UpdateManager;
@@ -32,6 +33,7 @@ public final class CustomDaytime extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new TimeSkipListener(), instance); // Vanilla time skip prevention
         Bukkit.getPluginManager().registerEvents(new BedEnterListener(), instance); // Bed Enter Listener
         Bukkit.getPluginManager().registerEvents(new BedLeaveListener(), instance); // Bed Leave Listener
+        Bukkit.getPluginManager().registerEvents(new ConnectionListener(), instance); // Join and Quit Listener
 
         // Timer
         TimeTickTask timeTickTask = new TimeTickTask();
