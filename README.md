@@ -23,20 +23,11 @@ Customize Minecraft's day/night cycle and experience smoother nights with this l
   # Length of the nighttime cycle in minutes
   nightLengthMinutes: 10.0
 
+  # Enable or disable night fast forwarding when enough players sleep
+  enableNightFastForward: true
+  
   # Length of night fast forwarding in seconds
   nightFastForwardSeconds: 5.0
-
-## 📥 Installation
-
-1. Download the latest .jar from the releases page.
-
-2. Place the .jar file in your server’s plugins folder.
-
-3. Start your server to generate the default config.
-
-4. Adjust the config.yml to your preferred day/night lengths and fast-forward speed.
-
-5. Restart or reload the server to apply changes.
 
 ## ⚡ Usage
 
@@ -46,21 +37,5 @@ Customize Minecraft's day/night cycle and experience smoother nights with this l
 
 - Config values are flexible, so you can create ultra-short or ultra-long days and nights.
 
-## 📝 Configuration Options
-
-| Option                    | Description                                        | Default        |
-|---------------------------|----------------------------------------------------|----------------|
-| `dayLengthMinutes`        | Duration of the day in minutes                     | 10.0 (minutes) |
-| `nightLengthMinutes`      | Duration of the night in minutes                   | 10.0 (minutes) |
-| `nightFastForwardSeconds` | Time it takes to fast-forward night while sleeping | 5.0 (seconds)  |
-
 ## 📜 License
 This plugin is licensed under the [GNU General Public License v3.0](https://github.com/SeedimV/CustomDaytime/blob/master/LICENSE). You are free to use, modify, and distribute the plugin, but any derivative works must also be licensed under the same terms.
-
-## 🌐 Author
-Created by **Seedim**
-- GitHub: https://github.com/SeedimV
-
-- Modrinth: https://modrinth.com/user/SeedimV
-
-- Buy Me a Coffee: https://buymeacoffee.com/seedim
